@@ -1,0 +1,18 @@
+{
+    "sourceFile": "resources/views/welcome.blade.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1727098679911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1727098679911,
+            "name": "Commit-0",
+            "content": "@extends('layouts.layout')\n\n@section('title', 'Dashboard')\n\n@section('content')\n    <!-- Hero 섹션 -->\n    <section class=\"bg-white py-20\">\n        <div class=\"container max-w-7xl mx-auto  justify-between items-center px-6\">\n            <h1 class=\"text-6xl font-extrabold text-gray-900 leading-tight\">Helping Creators Build High-Earning, One-Person Businesses</h1>\n            <p class=\"mt-6 text-xl font-light text-gray-600\">With strategies that have helped over 100,000 entrepreneurs grow their brands.</p>\n            \n            <!-- Subscribe Form -->\n            <form action=\"/subscribe\" method=\"POST\" class=\"mt-8 flex justify-center\">\n                @csrf\n                <input type=\"email\" name=\"email\" placeholder=\"Enter your email\" class=\"px-4 py-3 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500\">\n                <button type=\"submit\" class=\"bg-blue-600 text-white text-lg px-8 py-3 rounded-r-lg hover:bg-blue-700\">Subscribe</button>\n            </form>\n        </div>\n    </section>\n\n    <!-- 신뢰 요소 섹션 -->\n    <section class=\"bg-gray-100 py-16\">\n        <div class=\"max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center\">\n            <!-- 신뢰 요소들 -->\n            <div class=\"p-8 bg-white shadow-md\">\n                <h3 class=\"text-3xl font-bold text-gray-800\">100,000+ Entrepreneurs Helped</h3>\n                <p class=\"mt-4 text-lg text-gray-600\">Across various industries and niches.</p>\n            </div>\n            <div class=\"p-8 bg-white shadow-md\">\n                <h3 class=\"text-3xl font-bold text-gray-800\">Courses &amp; Products</h3>\n                <p class=\"mt-4 text-lg text-gray-600\">Helping creators build, grow, and scale their businesses.</p>\n            </div>\n            <div class=\"p-8 bg-white shadow-md\">\n                <h3 class=\"text-3xl font-bold text-gray-800\">Content &amp; Strategies</h3>\n                <p class=\"mt-4 text-lg text-gray-600\">Providing actionable insights for sustainable growth.</p>\n            </div>\n        </div>\n    </section>\n\n    <!-- CTA 섹션 -->\n    <section class=\"bg-blue-600 py-20 text-center text-white\">\n        <div class=\"container mx-auto\">\n            <h2 class=\"text-4xl font-bold\">Start Your Journey Now</h2>\n            <p class=\"mt-4 text-xl font-light\">Learn the strategies that will help you succeed.</p>\n            <a href=\"/contact\" class=\"mt-8 inline-block bg-white text-blue-600 text-lg px-8 py-4 rounded-lg hover:bg-gray-100\">Get Started Today</a>\n        </div>\n    </section>\n@endsection\n"
+        }
+    ]
+}
